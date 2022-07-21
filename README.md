@@ -5,30 +5,28 @@
 Hi, there!
 
 - 🖥️ Typical Windows user
-- 📱  Android developer
+- 📱 Android developer
 - 🏫 Undergraduate in China  
   (Major **Automotive Engineering**)
 - 💖 ACGN lover
 
 ## 🎓 Current learning...
 
-- 🤖 Android Jetpack / Kotlin.
-- ⚙️ FEM Analysis with ANSYS
-- 📘 College English
-- 📚 (Maybe) Japanese
-- 💻 BASIC Computer Science
+- 🤖 Android Jetpack / Kotlin;
+- ⚙️ Deep Learning with Pytorch;
+- 📘 College English;
+- 📚 (Maybe) Japanese;
+- 💻 BASIC Computer Science;
 
 ## 💾 Working environment
 
-![Windows 10](https://img.shields.io/badge/Windows%2010%20Pro-00adef?style=flat-square&logo=windows&logoColor=ffffff)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white)
-![Android 10](https://img.shields.io/badge/Android%2010%20RR-3ddc84?style=flat-square&logo=android&logoColor=ffffff)
-![Wear OS](https://img.shields.io/badge/Wear%20OS%20-4285f4?style=flat-square&logo=wear%20os&logoColor=ffffff)
+![Windows 11](https://img.shields.io/badge/Windows%2011%20Pro-00adef?style=flat-square&logo=windows&logoColor=ffffff)
+![Ubuntu 18.04](https://img.shields.io/badge/Ubuntu%2018.04-E95420?style=flat-square&logo=ubuntu&logoColor=white)
+![Android 11](https://img.shields.io/badge/Android%2011%20RR-3ddc84?style=flat-square&logo=android&logoColor=ffffff)
 
 ## 📱 Devices in use
 
-![Xiaomi Mi K20 Pro](https://img.shields.io/badge/Xiaomi%20Mi%20K20%20Pro-fd4900?style=flat-square&logo=xiaomi&logoColor=ffffff)
-![Mi Watch](https://img.shields.io/badge/Xiaomi%20Mi%20Watch%20-fd4900?style=flat-square&logo=xiaomi&logoColor=ffffff)
+![Redmi K20 Pro](https://img.shields.io/badge/Redmii%20K20%20Pro-fd4900?style=flat-square&logo=xiaomi&logoColor=ffffff)
 ![Redmi G 2021 Laptop](https://img.shields.io/badge/Redmi%20G%202021-fd4900?style=flat-square&logo=xiaomi&logoColor=ffffff)
 ![Oculus Quest 2](https://img.shields.io/badge/Oculus%20Quest%202-1c1e00?style=flat-square&logo=oculus&logoColor=ffffff)
 
