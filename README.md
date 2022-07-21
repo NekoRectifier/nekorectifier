@@ -26,7 +26,7 @@ Hi, there!
 
 ## 📱 Devices in use
 
-![Redmi K20 Pro](https://img.shields.io/badge/Redmii%20K20%20Pro-fd4900?style=flat-square&logo=xiaomi&logoColor=ffffff)
+![Redmi K20 Pro](https://img.shields.io/badge/Redmi%20K20%20Pro-fd4900?style=flat-square&logo=xiaomi&logoColor=ffffff)
 ![Redmi G 2021 Laptop](https://img.shields.io/badge/Redmi%20G%202021-fd4900?style=flat-square&logo=xiaomi&logoColor=ffffff)
 ![Oculus Quest 2](https://img.shields.io/badge/Oculus%20Quest%202-1c1e00?style=flat-square&logo=oculus&logoColor=ffffff)
 
