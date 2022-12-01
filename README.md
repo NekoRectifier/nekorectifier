@@ -4,19 +4,10 @@
 
 Hi, there!
 
-- 🖥️ Typical Windows user
 - 📱 Android developer
 - 🏫 Undergraduate in China  
   (Major **Automotive Engineering**)
 - 💖 ACGN lover
-
-## 🎓 Current learning...
-
-- 🤖 Android Jetpack / Kotlin;
-- ⚙️ Deep Learning with Pytorch;
-- 📘 College English;
-- 📚 (Maybe) Japanese;
-- 💻 BASIC Computer Science;
 
 ## 💾 Working environment
 
