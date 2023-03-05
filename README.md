@@ -4,16 +4,15 @@
 
 Hi, there!
 
-- 📱 Android developer
+- 📱 Computer Vision Newbie
 - 🏫 Undergraduate in China  
   (Major **Automotive Engineering**)
 - 💖 ACGN lover
 
 ## 💾 Working environment
 
-![Windows 11](https://img.shields.io/badge/Windows%2011%20Pro-00adef?style=flat-square&logo=windows&logoColor=ffffff)
-![Ubuntu 18.04](https://img.shields.io/badge/Ubuntu%2018.04-E95420?style=flat-square&logo=ubuntu&logoColor=white)
-![Android 11](https://img.shields.io/badge/Android%2011%20RR-3ddc84?style=flat-square&logo=android&logoColor=ffffff)
+![Windows 11](https://img.shields.io/badge/Windows%2011%20Pro%20Workstation-00adef?style=flat-square&logo=windows&logoColor=ffffff)
+![Manjaro Gnome](https://img.shields.io/badge/Manjaro%20Gnome-35BF5C?style=flat-square&logo=manjaro&logoColor=white)
 
 ## 📱 Devices in use
 
