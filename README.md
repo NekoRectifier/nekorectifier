@@ -5,8 +5,6 @@
 Hi, there!
 
 - 📱 Computer Vision Newbie
-- 🏫 Undergraduate in China  
-  (Major **Automotive Engineering**)
 - 💖 ACGN lover
 
 ## 💾 Working environment
