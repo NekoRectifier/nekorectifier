@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iridite - Developer & AI Enthusiast</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <style>
+        body { background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); }
+        .glow { box-shadow: 0 0 20px rgba(59, 130, 246, 0.3); }
+        .glow:hover { box-shadow: 0 0 30px rgba(59, 130, 246, 0.5); }
+    </style>
+</head>
+<body class="min-h-screen text-gray-100">
+    <div id="app">
+        <!-- Hero Section -->
+        <header class="container mx-auto px-6 py-20 text-center">
+            <h1 class="text-6xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
+                Iridite
+            </h1>
+            <p class="text-2xl text-gray-300 mb-8">Developer & AI Enthusiast</p>
+            <p class="text-lg text-gray-400 mb-8">Building tools for the future</p>
+            <div class="flex justify-center gap-6">
+                <a href="https://github.com/iridite" target="_blank" class="text-blue-400 hover:text-blue-300 transition">GitHub</a>
+                <a href="https://twitter.com/iridite_" target="_blank" class="text-blue-400 hover:text-blue-300 transition">Twitter</a>
+                <a href="https://iridum.eu.org" target="_blank" class="text-blue-400 hover:text-blue-300 transition">Blog</a>
+            </div>
+        </header>
+
+        <!-- Projects Section -->
+        <section class="container mx-auto px-6 py-12">
+            <h2 class="text-3xl font-bold mb-12 text-center">Featured Projects</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div v-for="project in projects" :key="project.name" 
+                     class="bg-slate-800/50 backdrop-blur rounded-lg p-6 glow transition-all hover:scale-105">
+                    <div class="flex justify-between items-start mb-3">
+                        <h3 class="text-xl font-semibold text-blue-400">{{ project.name }}</h3>
+                        <span v-if="project.stars > 0" class="text-yellow-400 text-sm">⭐ {{ project.stars }}</span>
+                    </div>
+                    <p class="text-gray-300 text-sm mb-4">{{ project.description }}</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span v-for="tech in project.tech" :key="tech" 
+                              class="px-2 py-1 bg-blue-500/20 text-blue-300 text-xs rounded">
+                            {{ tech }}
+                        </span>
+                    </div>
+                    <div class="flex gap-4 text-sm">
+                        <a :href="project.github" target="_blank" class="text-gray-400 hover:text-blue-400 transition">GitHub →</a>
+                        <a v-if="project.demo" :href="project.demo" target="_blank" class="text-gray-400 hover:text-purple-400 transition">Live Demo →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="container mx-auto px-6 py-12">
+            <h2 class="text-3xl font-bold mb-8 text-center">Tech Stack</h2>
+            <div class="max-w-3xl mx-auto space-y-4">
+                <div v-for="category in skills" :key="category.name" class="bg-slate-800/30 rounded-lg p-4">
+                    <h3 class="text-lg font-semibold text-blue-400 mb-2">{{ category.name }}</h3>
+                    <p class="text-gray-300">{{ category.items.join(' · ') }}</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <footer class="container mx-auto px-6 py-12 text-center">
+            <h2 class="text-2xl font-bold mb-6">Get in Touch</h2>
+            <p class="text-gray-400 mb-4">iridite@foxmail.com</p>
+            <p class="text-gray-500 text-sm">Earth, Orion spiral, Milky Way Galaxy</p>
+        </footer>
+    </div>
+
+    <script>
+        const { createApp } = Vue;
+        
+        createApp({
+            data() {
+                return {
+                    projects: [
+                        {
+                            name: 'openclawer',
+                            description: 'One key OpenClaw deployment - Deploy and manage OpenClaw AI agents with fnOS',
+                            tech: ['JavaScript', 'fnOS', 'Dashboard'],
+                            stars: 20,
+                            github: 'https://github.com/iridite/openclawer',
+                            demo: null
+                        },
+                        {
+                            name: 'medfusion',
+                            description: '🏥 Modular medical multimodal fusion framework with 29 vision backbones, 5 fusion strategies, and multi-view support',
+                            tech: ['Python', 'Rust', 'Medical AI'],
+                            stars: 0,
+                            github: 'https://github.com/iridyne/medfusion',
+                            demo: null
+                        },
+                        {
+                            name: 'matrix',
+                            description: '全自动内容降维打击流水线 - RSS → AI 过滤 → AI 改写 → Notion 存储',
+                            tech: ['Python', 'AI', 'Automation'],
+                            stars: 1,
+                            github: 'https://github.com/iridite/matrix',
+                            demo: null
+                        },
+                        {
+                            name: 'nodewarden-enhanced',
+                            description: 'Enhanced Bitwarden deployment with Cloudflare Workers and R2 storage',
+                            tech: ['TypeScript', 'Cloudflare', 'R2'],
+                            stars: 0,
+                            github: 'https://github.com/iridite/nodewarden-enhanced',
+                            demo: 'https://nodewarden.nekorect.workers.dev'
+                        },
+                        {
+                            name: 'bing-search-mcp',
+                            description: 'Free Bing search MCP server for Claude Code - No API key required',
+                            tech: ['Python', 'MCP', 'Search'],
+                            stars: 0,
+                            github: 'https://github.com/iridite/bing-search-mcp',
+                            demo: null
+                        },
+                        {
+                            name: 'rsshub-vercel',
+                            description: 'RSSHub deployment on Vercel for easy RSS feed generation',
+                            tech: ['TypeScript', 'Vercel', 'RSS'],
+                            stars: 0,
+                            github: 'https://github.com/iridite/rsshub-vercel',
+                            demo: 'https://rsshub-vercel-teal.vercel.app'
+                        }
+                    ],
+                    skills: [
+                        { name: 'Frontend', items: ['Vue', 'TypeScript', 'JavaScript', 'Tailwind CSS'] },
+                        { name: 'Backend', items: ['Python', 'Rust', 'Node.js'] },
+                        { name: 'Cloud', items: ['Vercel', 'Cloudflare Workers', 'R2'] },
+                        { name: 'Tools', items: ['AI Agents', 'RSS', 'Automation', 'MCP'] }
+                    ]
+                }
+            }
+        }).mount('#app');
+    </script>
+</body>
+</html>
